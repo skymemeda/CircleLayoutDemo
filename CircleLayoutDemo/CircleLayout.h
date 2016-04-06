@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CircleLayout.h
 //  CircleLayoutDemo
 //
 //  Created by sks on 16/4/5.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController<UICollectionViewDelegate,UICollectionViewDataSource>
-
+@interface CircleLayout : UICollectionViewLayout
 
 @end
-

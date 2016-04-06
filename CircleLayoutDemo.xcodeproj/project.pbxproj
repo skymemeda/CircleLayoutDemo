@@ -15,6 +15,10 @@
 		1B7ED02C1CB3A165006E20D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B7ED02A1CB3A165006E20D2 /* LaunchScreen.storyboard */; };
 		1B7ED0371CB3A165006E20D2 /* CircleLayoutDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7ED0361CB3A165006E20D2 /* CircleLayoutDemoTests.m */; };
 		1B7ED0421CB3A165006E20D2 /* CircleLayoutDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7ED0411CB3A165006E20D2 /* CircleLayoutDemoUITests.m */; };
+		1B7ED0511CB3A1C0006E20D2 /* CircleLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7ED0501CB3A1C0006E20D2 /* CircleLayout.m */; };
+		1B7ED0531CB3AE42006E20D2 /* image4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B7ED0521CB3AE42006E20D2 /* image4.jpg */; };
+		1B7ED0571CB3B33D006E20D2 /* MyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7ED0551CB3B33D006E20D2 /* MyCell.m */; };
+		1B7ED0581CB3B33D006E20D2 /* MyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B7ED0561CB3B33D006E20D2 /* MyCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,12 @@
 		1B7ED03D1CB3A165006E20D2 /* CircleLayoutDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircleLayoutDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B7ED0411CB3A165006E20D2 /* CircleLayoutDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleLayoutDemoUITests.m; sourceTree = "<group>"; };
 		1B7ED0431CB3A165006E20D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B7ED04F1CB3A1C0006E20D2 /* CircleLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleLayout.h; sourceTree = "<group>"; };
+		1B7ED0501CB3A1C0006E20D2 /* CircleLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleLayout.m; sourceTree = "<group>"; };
+		1B7ED0521CB3AE42006E20D2 /* image4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image4.jpg; sourceTree = "<group>"; };
+		1B7ED0541CB3B33D006E20D2 /* MyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCell.h; sourceTree = "<group>"; };
+		1B7ED0551CB3B33D006E20D2 /* MyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCell.m; sourceTree = "<group>"; };
+		1B7ED0561CB3B33D006E20D2 /* MyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,9 +117,15 @@
 				1B7ED0231CB3A165006E20D2 /* ViewController.m */,
 				1B7ED0251CB3A165006E20D2 /* Main.storyboard */,
 				1B7ED0281CB3A165006E20D2 /* Assets.xcassets */,
+				1B7ED0521CB3AE42006E20D2 /* image4.jpg */,
 				1B7ED02A1CB3A165006E20D2 /* LaunchScreen.storyboard */,
 				1B7ED02D1CB3A165006E20D2 /* Info.plist */,
 				1B7ED01C1CB3A165006E20D2 /* Supporting Files */,
+				1B7ED04F1CB3A1C0006E20D2 /* CircleLayout.h */,
+				1B7ED0501CB3A1C0006E20D2 /* CircleLayout.m */,
+				1B7ED0541CB3B33D006E20D2 /* MyCell.h */,
+				1B7ED0551CB3B33D006E20D2 /* MyCell.m */,
+				1B7ED0561CB3B33D006E20D2 /* MyCell.xib */,
 			);
 			path = CircleLayoutDemo;
 			sourceTree = "<group>";
@@ -243,9 +259,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B7ED0531CB3AE42006E20D2 /* image4.jpg in Resources */,
 				1B7ED02C1CB3A165006E20D2 /* LaunchScreen.storyboard in Resources */,
 				1B7ED0291CB3A165006E20D2 /* Assets.xcassets in Resources */,
 				1B7ED0271CB3A165006E20D2 /* Main.storyboard in Resources */,
+				1B7ED0581CB3B33D006E20D2 /* MyCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +289,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B7ED0241CB3A165006E20D2 /* ViewController.m in Sources */,
+				1B7ED0511CB3A1C0006E20D2 /* CircleLayout.m in Sources */,
 				1B7ED0211CB3A165006E20D2 /* AppDelegate.m in Sources */,
+				1B7ED0571CB3B33D006E20D2 /* MyCell.m in Sources */,
 				1B7ED01E1CB3A165006E20D2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MyCell.h
 //  CircleLayoutDemo
 //
 //  Created by sks on 16/4/5.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController<UICollectionViewDelegate,UICollectionViewDataSource>
-
+@interface MyCell : UICollectionViewCell
+@property (strong, nonatomic) IBOutlet UIImageView *picView;
 
 @end
-
